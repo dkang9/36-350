@@ -11,4 +11,8 @@ model_select = function(covariates,responses,cutoff) {
   return(lm(responses ~ linear.regression.low))
 }
 
+run_simulation = function(n_trials, n, p, cutoff){
+  
+}
+
 
